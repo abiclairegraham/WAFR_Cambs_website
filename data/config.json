@@ -1,0 +1,32 @@
+{
+  "stripe": {
+    "one_off": {
+      "gbp_one_off": "https://buy.stripe.com/14A9AScqa8cy55B4VG7Vm04"
+    },
+    "monthly": {
+      "gbp_1":  "https://buy.stripe.com/7sY9AS9dY78ubtZ3RC7Vm00",
+      "gbp_3":  "https://buy.stripe.com/6oUaEW2PAdwSapVfAk7Vm01",
+      "gbp_5":  "https://buy.stripe.com/7sY6oGdue64q9lR4VG7Vm02",
+      "gbp_10": "https://buy.stripe.com/5kQfZgai20K641x3RC7Vm03"
+    }
+  },
+  "mailchimp": {
+    "signup_url": "https://standuptoracism.us7.list-manage.com/subscribe/post?u=5b84e7ff1ed5810f035be6c21&amp;id=8dd8b51b41&amp;f_id=0081ace4f0"
+  },
+    "facebook": {
+    "facebook_url": "https://www.facebook.com/CambridgeSUTR"
+  },
+    "instagram": {
+    "instagram_url": "https://www.instagram.com/cambridgestanduptoracism/"
+  },
+    "x_twitter": {
+    "x_twitter_url": "https://x.com/CambridgeSutr" 
+  }
+}
+
+
+
+
+
+
+
