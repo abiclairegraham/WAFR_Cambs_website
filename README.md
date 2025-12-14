@@ -1,5 +1,7 @@
 # Site
 
+Hosted at https://abiclairegraham.github.io/WAFR_Cambs_website/
+
 Work-in-progress website! Undergoing tidying and restructuring, transferring to roughly the structure below.
 
 This will be a simple static site with partials and JSON data for configuration and news.
