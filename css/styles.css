@@ -4,8 +4,8 @@
 :root{
   --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
   --card:#f8f8f8; --border:#e5e7eb;
-  --accent:#bd0662;     /* raspberry  */
-  --accent-2:#95abe7;   /* periwinkle */
+  --accent:#95abe7;   /* periwinkle */
+  --accent-2:#bd0662;     /* raspberry  */ 
   --accent-3:#edcc09;   /* mustard (DARKER BLUE=  #006699)  */
 }
 
@@ -29,7 +29,7 @@ img{max-width:100%;display:block;height:auto}
    Header / Nav
    ========================= */
 header{
-  position:sticky;top:0;z-index:30;background:#fff;color:#000;
+  position:sticky;top:0;z-index:30;background:#000;color:#fff;
   border-bottom:1px solid #e5e7eb;
 }
 
@@ -45,7 +45,7 @@ header{
 nav ul{list-style:none;margin:0;padding:0;display:flex;gap:.75rem;flex-wrap:wrap}
 nav a{
   display:inline-block;padding:.5rem .8rem;border-radius:.5rem;
-  text-decoration:none;color:#000;font-weight:700;font-size:1.1rem
+  text-decoration:none;color:#fff;font-weight:700;font-size:1.1rem
 }
 nav a:hover, nav a:focus{background:#f8f8f8}
 
