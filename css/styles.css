@@ -4,9 +4,9 @@
 :root{
   --bg:#ffffff; --fg:#1a1a1a; --muted:#6b7280;
   --card:#f8f8f8; --border:#e5e7eb;
-  --accent:#f1d600;     /* yellow  */
-  --accent-2:#e6007e;   /* magenta */
-  --accent-3:#00a0e3;   /* blue  (DARKER BLUE=  #006699)  */
+  --accent:#bd0662;     /* raspberry  */
+  --accent-2:#95abe7;   /* periwinkle */
+  --accent-3:#edcc09;   /* mustard (DARKER BLUE=  #006699)  */
 }
 
 *{box-sizing:border-box}
