@@ -47,7 +47,13 @@ nav a{
   display:inline-block;padding:.5rem .8rem;border-radius:.5rem;
   text-decoration:none;color:#fff;font-weight:700;font-size:1.1rem
 }
-nav a:hover, nav a:focus{background:#f8f8f8}
+/* nav a:hover, nav a:focus{background:#f8f8f8} */
+
+nav a:hover,
+nav a:focus {
+  background: #95ABE7;
+  color: #000;
+}
 
 /* Mobile: stack logo over nav */
 @media (max-width:640px){
@@ -88,7 +94,8 @@ nav a:hover, nav a:focus{background:#f8f8f8}
 /* =========================
    CTA bar + buttons
    ========================= */
-.cta-bar{background:var(--accent);color:#000}
+/* .cta-bar{background:var(--accent);color:#000} */
+.cta-bar{background:#000;color:#fff}
 .cta-bar .inner{
   display:flex;gap:1rem;align-items:center;justify-content:space-between;
   padding:.6rem 1rem;font-weight:600;
