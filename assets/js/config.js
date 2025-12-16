@@ -42,3 +42,14 @@ if (document.readyState === 'loading') {
 
 // expose for your includes:loaded hook
 window.applyConfig = applyConfig;
+
+// Re-apply config when new content (partials) is injected
+const configObserver = new MutationObserver(() => {
+  applyConfig();
+});
+
+configObserver.observe(document.documentElement, {
+  childList: true,
+  subtree: true
+});
+
