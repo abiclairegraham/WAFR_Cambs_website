@@ -7,7 +7,7 @@ let cfgCache = null;
 async function ensureConfig() {
   if (cfgCache) return cfgCache;
   // Root-relative is safest if you navigate across pages:
-  const res = await fetch('/data/config.json?cache=' + Date.now());
+  const res = await fetch('data/config.json?cache=' + Date.now());
   if (!res.ok) throw new Error(`Failed to load config.json (${res.status})`);
   cfgCache = await res.json();
   return cfgCache;
